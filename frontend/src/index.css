@@ -1,0 +1,140 @@
+.homeheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(132, 115, 143, 0.751);
+    padding: 1rem 2rem;
+}
+
+.homeheader h1 {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.homeheader nav ul {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+}
+
+.homeheader nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.homeheader nav a:hover {
+    color: black;
+}
+
+.page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.app {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+hr {
+    width: 100%;
+    border: 1px solid black;
+}
+
+.body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;    /* Stack elements vertically */
+    justify-content: center;
+    align-items: center;
+    min-height: 25vh;
+    gap: 20px;                 /* Space between elements */
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;    /* Stack elements vertically */
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    border: 1px solid rgba(0, 0, 0, 0.751);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(132, 115, 143, 0.751);
+    padding: 20px;
+    text-align: center;
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card .card-image {
+    max-width: 60%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.card .card-title {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    color: rgba(132, 115, 143, 0.751);
+}
+
+.card .card-text {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgba(132, 115, 143, 0.751);
+}
+
+.welcome-message {
+    font-size: 2.5em;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgba(132, 115, 143, 0.751);
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0;
+    text-align: center;
+}
+
+.upload {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px;
+    background-color: rgba(117, 115, 143, 0.751);
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Your reusable Button component */
+.button {
+    background-color: rgba(117, 115, 143, 0.751);
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px 25px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.button:hover {
+    background-color: rgba(120, 0, 220, 0.9);
+    transform: scale(1.05);
+}
+
+/* Selected filename text */
+.upload p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: black;
+}
