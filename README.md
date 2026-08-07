@@ -1,4 +1,4 @@
-# Khol Bol Transcription
+# Sri Khol Bol Transcription
 
 An audio ML system for **automatically transcribing khol performances into bols**.
 
